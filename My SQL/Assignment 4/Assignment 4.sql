@@ -84,8 +84,7 @@ SELECT ET.Employee_Name,COUNT(EST.Skill_Code) AS Số_lƯỢNG_SKILLS
 FROM Employee_Table ET INNER JOIN Employee_Skill_Table EST ON ET.Employee_Number= EST.Employee_Number
 GROUP BY ET.Employee_Name
 HAVING Số_lƯỢNG_SKILLS >1;
-
-
+											
 
 
 
